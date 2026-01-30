@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brands | Planet 1000</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; min-height: 100vh; background: linear-gradient(to bottom, #fffbeb, #fff7ed, #f0fdfa); }
+    .serif { font-family: 'Libre Baskerville', Georgia, serif; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 2rem; }
+    .logo { color: #115e59; font-size: 1.5rem; font-weight: 300; letter-spacing: 0.1em; text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: #78716c; text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #0f766e; font-weight: 500; }
+    .content { max-width: 72rem; margin: 0 auto; padding: 1.5rem 2rem; }
+    h1 { color: #292524; font-size: 2.5rem; font-weight: 400; line-height: 1.2; margin-bottom: 2rem; text-align: center; }
+    .brands { display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap; }
+    .brand-link { display: block; transition: transform 0.2s, opacity 0.2s; }
+    .brand-link:hover { transform: scale(1.03); opacity: 0.9; }
+    .brand-link img { width: 280px; height: 280px; object-fit: cover; border-radius: 0.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+    footer { border-top: 1px solid rgba(13, 148, 136, 0.2); margin-top: .15rem; padding: 3rem 2rem; text-align: center; }
+    .footer-brand { display: inline-block; }
+    .footer-brand p { color: #78716c; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">PLANET 1000</a>
+    <div class="nav-links">
+      <a href="what-we-do.html">What We Do</a>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="brands.html" class="active">Brands</a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h1 class="serif">Our brands:</h1>
+    
+    <div class="brands">
+      <a href="https://www.thefamilytreetracer.com" class="brand-link" target="_blank" rel="noopener">
+        <img src="The Family Tree Tracer.png" alt="The Family Tree Tracer">
+      </a>
+      <a href="https://www.gvatech.org" class="brand-link" target="_blank" rel="noopener">
+        <img src="GVA Technology.png" alt="GVA Technology">
+      </a>
+      <a href="https://www.gvatech.org" class="brand-link" target="_blank" rel="noopener">
+        <img src="Good Vibe Audio.png" alt="Good Vibe Audio">
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-brand">
+      <a href="index.html" class="logo">PLANET 1000</a>
+      <p>Understanding first.</p>
+    </div>
+  </footer>
+</body>
+</html>

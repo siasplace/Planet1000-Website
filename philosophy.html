@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philosophy | Planet 1000</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; min-height: 100vh; background: linear-gradient(to bottom, #fffbeb, #fff7ed, #f0fdfa); }
+    .serif { font-family: 'Libre Baskerville', Georgia, serif; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 2rem; }
+    .logo { color: #115e59; font-size: 1.5rem; font-weight: 300; letter-spacing: 0.1em; text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a { color: #78716c; text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: #0f766e; font-weight: 500; }
+    .content { max-width: 48rem; margin: 0 auto; padding: 1.5rem 2rem; }
+    .label { color: #0f766e; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { color: #292524; font-size: 2.5rem; font-weight: 400; line-height: 1.2; margin-bottom: 2rem; }
+    .prose { color: #57534e; font-size: 1.125rem; line-height: 1.8; }
+    .prose p { margin-bottom: 1.5rem; }
+    .principles { background: rgba(240, 253, 250, 0.5); border-radius: 1rem; padding: 1.5rem; margin-top: 1.5rem; }
+    .principles h2 { color: #292524; font-size: 1.5rem; font-weight: 400; margin-bottom: 1.5rem; }
+    .principle { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+    .principle:last-child { margin-bottom: 0; }
+    .num { width: 2rem; height: 2rem; border-radius: 50%; background: #ccfbf1; display: flex; align-items: center; justify-content: center; color: #0f766e; font-size: 0.875rem; font-weight: 500; flex-shrink: 0; }
+    .principle h4 { color: #292524; font-weight: 500; margin-bottom: 0.25rem; }
+    .principle p { color: #78716c; font-size: 0.875rem; margin: 0; }
+    footer { border-top: 1px solid rgba(13, 148, 136, 0.2); margin-top: 1.rem; padding: 3rem 2rem; text-align: center; }
+    .footer-brand { display: inline-block; }
+    .footer-brand p { color: #78716c; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">PLANET 1000</a>
+    <div class="nav-links">
+      <a href="what-we-do.html">What We Do</a>
+      <a href="philosophy.html" class="active">Philosophy</a>
+      <a href="brands.html">Brands</a>
+    </div>
+  </nav>
+
+  <div class="content">
+    <h1 class="serif">Understanding is not a phase. It's the foundation.</h1>
+    
+    <div class="prose">
+      <p>The quality of any solution is bounded by the depth of understanding that precedes it.</p>
+    </div>   
+    <div class="principles">
+      <h2 class="serif">Our principles</h2>
+      <div class="principle">
+        <div class="num">1</div>
+        <div>
+          <h4>Listen before you prescribe</h4>
+          <p>Diagnosis precedes treatment. Always.</p>
+        </div>
+      </div>
+      <div class="principle">
+        <div class="num">2</div>
+        <div>
+          <h4>Context shapes everything</h4>
+          <p>An approach works brilliantly in one situation and fails in another. Context is why.</p>
+        </div>
+      </div>
+      <div class="principle">
+        <div class="num">3</div>
+        <div>
+          <h4>Simplicity is earned</h4>
+          <p>Clear recommendations emerge from thorough understanding, not from shortcuts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-brand">
+      <a href="index.html" class="logo">PLANET 1000</a>
+      <p>Understanding first.</p>
+    </div>
+  </footer>
+</body>
+</html>
